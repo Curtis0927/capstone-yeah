@@ -1,0 +1,22 @@
+#If number is even / by 2, if number is odd * by 3 and + 1. Continue with the sequemce to end up back at the same 4, 2, 1 loop
+
+#num = int(input(" Enter a random number here: "))
+
+#Sequence =  [num]
+
+def collatz(num):
+    while num != 1:
+        print(num)
+        if num % 2 == 0:
+            num = int(num / 2)
+        else:
+            num = int(3 * num + 1)
+    else:
+        print(num)
+        print('Done!')
+
+
+def main():
+    num = int(input('Input an integer: '))
+    collatz(num)
+main()
