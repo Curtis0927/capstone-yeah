@@ -1,2 +1,23 @@
 print ("Hello World")
 print("World Hello")
+#exercise from yt- Variables
+Patient= ("John Smith")
+Age = 20
+New_patient = True
+#inputs
+DOB = input("What year were you born? ")
+print("My DOB was " + DOB + " too!")
+#type conversion
+Birth_year = input ("Enter your birth year: ")
+int(Birth_year)
+age = 2022 - int(Birth_year)
+print(age)
+int()
+float ()
+bool()
+str()
+
+Number_1 = float(input("First num:"))
+Number_2 = float(input("Second num:"))
+Sum = Number_1 + Number_2
+print("Sum: " + str(Sum))
