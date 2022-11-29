@@ -19,5 +19,7 @@ str()
 
 Number_1 = float(input("First num:"))
 Number_2 = float(input("Second num:"))
-Sum = Number_1 + Number_2
-print("Sum: " + str(Sum))
+Sum = Number_1 // Number_2
+print("Sum: " // str(Sum))
+
+#Strings
