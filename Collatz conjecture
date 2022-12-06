@@ -3,7 +3,7 @@
 #num = int(input(" Enter a random number here: "))
 
 #Sequence =  [num]
-
+#not actually my code just wanted to stuy it and understand a concept tha i found some interest in. (Collatz conjecture)
 def collatz(num):
     while num != 1:
         print(num)
