@@ -1,4 +1,4 @@
-#If number is even / by 2, if number is odd * by 3 and + 1. Continue with the sequemce to end up back at the same 4, 2, 1 loop
+#If number is even / by 2, if number is odd * by 3 and + 1. Continue with the sequence to end up back at the same 4, 2, 1 loop
 
 #num = int(input(" Enter a random number here: "))
 
