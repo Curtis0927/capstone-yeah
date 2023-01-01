@@ -14,9 +14,8 @@ def collatz(num):
     else:
         print(num)
         print('Done!')
-
-
 def main():
-    num = int(input('Enter a numberrrr: '))
+    num = int(input('Enter a numberrrr:'))
     collatz(num)
 main()
+print("hello")
