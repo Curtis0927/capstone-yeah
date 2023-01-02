@@ -1,0 +1,29 @@
+// Select the navbar and the sections
+const navbar = document.querySelector('nav');
+const sections = document.querySelectorAll('section');
+
+// Add an event listener to the nav links
+navbar.addEventListener('click', function(event) {
+  // Prevent the default link behavior
+  event.preventDefault();
+
+  // Get the target section
+  const target = event.target.closest('a');
+  if (!target) return;
+  const targetSection = document.querySelector(target.hash);
+
+  // Smooth scroll to the target section
+  window.scrollTo({
+    top: targetSection.offsetTop - navbar.offsetHeight,
+    behavior: 'smooth'
+  });
+});
+
+// Add a sticky class to the navbar when it reaches the top of the screen
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 0) {
+    navbar.classList.add('sticky');
+  } else {
+    navbar.classList.remove('sticky');
+  }
+});
