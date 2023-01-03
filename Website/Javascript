@@ -12,7 +12,7 @@ navbar.addEventListener('click', function(event) {
   if (!target) return;
   const targetSection = document.querySelector(target.hash);
 
-  // Smooth scroll to the target section
+  // Smooth scroll
   window.scrollTo({
     top: targetSection.offsetTop - navbar.offsetHeight,
     behavior: 'smooth'
