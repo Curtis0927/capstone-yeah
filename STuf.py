@@ -13,3 +13,4 @@ def draw_board(board):
         print(" ".join(row))
 
 draw_board(board)
+
