@@ -1,29 +1,83 @@
 // Select the navbar and the sections
-const navbar = document.querySelector('nav');
-const sections = document.querySelectorAll('section');
+const navbar = document.querySelector("nav");
+const sections = document.querySelectorAll("section");
 
 // Add an event listener to the nav links
-navbar.addEventListener('click', function(event) {
+navbar.addEventListener("click", function (event) {
   // Prevent the default link behavior
   event.preventDefault();
 
   // Get the target section
-  const target = event.target.closest('a');
+  const target = event.target.closest("a");
   if (!target) return;
   const targetSection = document.querySelector(target.hash);
 
   // Smooth scroll
   window.scrollTo({
     top: targetSection.offsetTop - navbar.offsetHeight,
-    behavior: 'smooth'
+    behavior: "smooth"
   });
 });
 
 // Add a sticky class to the navbar when it reaches the top of the screen
-window.addEventListener('scroll', function() {
-  if (window.pageYOffset > 0) {
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');
+// window.addEventListener("scroll", function () {
+//   if (window.pageYOffset > 0) {
+//     nav.classList.add("sticky");
+//   } else {
+//     nav.classList.remove("sticky");
+//   }
+// });
+
+function generateNumber() {
+  // Generate a random number between 1 and 100
+  const randomNumber = Math.floor(Math.random() * 100) + 1;
+  // Display the random number in the output element
+  document.getElementById("output1").innerHTML = randomNumber;
+}
+
+function generateNumberMinMax() {
+  // Get the min and max values from the input fields
+  let min = document.getElementById("min").value;
+  let max = document.getElementById("max").value;
+  // Generate a random number between min and max
+  const randomNumberMinMax = Math.floor(Math.random() * (max - min + 1)) + min;
+  // Display the random number in the output element
+  document.getElementById("output2").innerHTML = randomNumberMinMax;
+}
+
+//color switch stolen from an old project but i can still kinda explain it//
+const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+const btn = document.getElementById("btnSwitch");
+const color = document.querySelectorAll("color");
+
+btn.addEventListener("click", function () {
+  let hexColor1 = "#";
+  let hexColor2 = "#";
+  let hexColor3 = "#";
+  let hexColor4 = "#";
+  let hexColor5 = "#";
+  let hexColor6 = "#";
+  for (let i = 0; i < 6; i++) {
+    hexColor1 += hex[getRandomNumber()];
+    hexColor2 += hex[getRandomNumber()];
+    hexColor3 += hex[getRandomNumber()];
+    hexColor4 += hex[getRandomNumber()];
+    hexColor5 += hex[getRandomNumber()];
+    hexColor6 += hex[getRandomNumber()];
   }
+  color.textContent = hexColor1;
+  document.body.style.backgroundColor = hexColor1;
+  color.textContent = hexColor2;
+  document.getElementById("bit").style.backgroundColor = hexColor2;
+  color.textContent = hexColor3;
+  document.getElementById("section1").style.backgroundColor = hexColor3;
+  color.textContent = hexColor4;
+  document.getElementById("section2").style.backgroundColor = hexColor4;
+  color.textContent = hexColor5;
+  document.getElementById("section3").style.backgroundColor = hexColor5;
+  color.textContent = hexColor6;
+  document.getElementById("section4").style.backgroundColor = hexColor6;
 });
+function getRandomNumber() {
+  return Math.floor(Math.random() * hex.length);
+}

@@ -1,44 +1,122 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Capstone</title>
-    <link rel="stylesheet" href="Css" />
-  </head>
 
-  <body>
-    <header>
-      <h1>Capstone</h1>
-    </header>
-    <nav>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capstone</title>
+  <link rel="stylesheet" href="Css">
+</head>
+
+<body>
+  <header>
+    <h1>Capstone</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#section1">Thing</a></li>
+      <li><a href="#section2">Thing</a></li>
+      <li><a href="#section3">Thing</a></li>
+      <li><a href="#section4">Thing</a></li>
+      <li><a href="#footer">Footer</a></li>
+    </ul><html lang="en">
+
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Capstone</title>
+        <link rel="stylesheet" href="Css">
+      </head>
+      
+      <body>
+        <header>
+          <h1>Capstone</h1>
+        </header>
+        <nav>
+          <ul id="nav">
+            <li class="sectionals"><a href="#section1">numGenerator1 </a></li>
+            <li class="sectionals"><a href="#section2">numGenerator but complicated </a></li>
+            <li class="sectionals"><a href="#section3">colorGoBrrr </a></li>
+            <li class="sectionals"><a href="#section4">Thing</a></li>
+            <li class="sectionals"><a href="#footer">Footer</a></li>
+          </ul>
+      
+        </nav>
+        <main>
+          <section id="section1">
+            <h2>Placeholder</h2>
+            <p>
+              <!-- button to find a random number-->
+            <div id="output1">0</div>
+            <button class="button" onclick="generateNumber()">Generate Random Number 1-100</button>
+      
+            </p>
+          </section>
+          <section id="section2">
+            <h2>Placeholder</h2>
+      
+            <p>
+              <!-- butons for the minimum/ maximum input values to find a random number-->
+            <div id="output2">0</div>
+            <label for="min">Min:</label>
+            <input type="number" id="min" value="1">
+            <label class="button" for="max">Max:</label>
+            <input type="number" id="max" value="100"><br>
+            <button class="button" onclick="generateNumberMinMax()">Generate Random Number</button></p>
+            <p id="brokenlol"> *a <b id="bit" style="color:black">bit</b> broken*</p>
+      
+          </section>
+          <section id="section3">
+            <h2>Placeholder</h2>
+            <button id="btnSwitch" class="button">color switch</button>
+            <p></p>
+          </section>
+          <section id="section4">
+            <h2>Placeholder</h2>
+            <p></p>
+          </section>
+      
+        </main>
+      
+        <footer id="footer">
+          <p>by Curtis:D</p>
+        </footer>
+      
+      </body>
+      
+      </html>
+
+  </nav>
+  <main>
+    <section id="section1">
+      <h2>Placeholder</h2>
+      <p></p>
+    </section>
+    <section id="section2">
+      <h2>Placeholder</h2>
       <ul>
-        <li><a href="#section1">Thing</a></li>
-        <li><a href="#section2">Thing</a></li>
-        <li><a href="#section3">Thing</a></li>
-        <li><a href="#footer">Thing</a></li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam veritatis tempora temporibus suscipit commodi qui dicta reprehenderit recusandae aliquam, animi ratione, omnis praesentium architecto, sunt maiores ad molestiae voluptatibus officia? Deserunt expedita quia, possimus autem dolores earum qui consequatur in tempora cupiditate ipsa dolorem atque sint ipsum maxime dolorum animi temporibus enim voluptate minima. Aut a harum accusamus molestias expedita! Pariatur, mollitia ducimus nisi dolorem magni voluptatibus sapiente natus quibusdam repellat asperiores cumque veniam rerum, in id facere libero, distinctio ab laborum tempore deleniti nulla exercitationem fugiat ea eveniet. In consequatur molestias illum eligendi at repellat optio modi omnis dignissimos illo molestiae iusto ipsam ab repellendus, quis enim fuga? Iure magni minus deleniti, repellat vero architecto aut labore dolorum assumenda hic consectetur fugiat iusto quisquam ullam voluptates ex aspernatur eaque, quis atque nam, enim explicabo. Assumenda impedit labore soluta maxime, a id quidem expedita porro animi blanditiis in, illum eligendi. Veritatis dicta distinctio alias eius inventore. Incidunt repudiandae, cumque illo amet dolor dolores adipisci eaque vel enim! Odit recusandae animi vero beatae neque cum quos possimus itaque. Consectetur asperiores quod ullam placeat facilis. Blanditiis consequuntur doloribus neque nobis sed magni, distinctio aut id necessitatibus pariatur corporis maiores beatae. Praesentium a voluptas voluptatem cum provident! Dolorum, quidem error accusantium consequatur enim cumque quae iusto, minus perspiciatis nesciunt velit veritatis laborum incidunt consectetur obcaecati aut nam laudantium esse rerum hic atque a. Optio molestias ullam repellendus qui a atque voluptas quia! Vel in doloremque, dolores velit sunt voluptas ducimus delectus quasi nihil cum et sit ad repellat. Sunt impedit non quo accusamus repellat similique modi doloremque perspiciatis repudiandae facilis consequuntur necessitatibus magnam qui, inventore voluptatem nemo, quisquam molestiae fugit dolor pariatur vel autem ea cum? Consectetur suscipit a beatae est sunt magnam nulla unde placeat eos vel explicabo rem, non officia tenetur velit doloremque repellat dolores voluptas debitis facere perspiciatis amet natus quod! Repellat commodi vitae assumenda corporis magnam repellendus beatae sapiente iusto tempora, ex facilis earum perferendis. Nulla officiis aperiam id cum, in harum, aspernatur sequi cupiditate quis reprehenderit commodi impedit hic aliquam consequatur. Quis quaerat ab quo modi fuga magnam dicta velit voluptatibus repellendus asperiores temporibus, sequi autem accusamus dolorem rem est, ex reprehenderit labore aperiam. Culpa natus adipisci exercitationem. Obcaecati hic nam similique fugit facere reiciendis corrupti accusamus adipisci, iusto natus vitae ducimus distinctio, fugiat reprehenderit quisquam mollitia deleniti culpa amet praesentium nesciunt quos quidem optio vero ullam! Illo cum eum delectus sequi voluptatum, aliquid tempora repellendus quasi alias veritatis omnis vitae, pariatur enim eaque maiores ab magni autem voluptates quidem perferendis? Temporibus laudantium dolor inventore labore tempora eos animi, adipisci et facilis aliquam a aspernatur iusto incidunt fugiat soluta vel recusandae. Assumenda voluptates vitae odit amet dignissimos temporibus unde molestiae blanditiis distinctio laboriosam, facere est molestias consequatur, veritatis necessitatibus enim atque accusamus possimus optio, quibusdam quasi! Cum voluptates laudantium itaque quam, vero quidem hic? Minima sapiente fuga voluptas voluptates velit corporis quis porro deserunt, tenetur tempora possimus maxime ut maiores dignissimos exercitationem delectus id atque magni? Corporis velit quis magnam inventore facere error facilis ab in sunt praesentium, aperiam doloremque dolore eligendi deserunt suscipit illo aspernatur totam iusto dolores quaerat? Labore, ipsam unde. Eligendi quisquam doloribus aliquid unde vero a dolore repellendus, molestias nihil consequatur, quam deleniti. Corporis, tempore a odit velit, omnis doloribus consectetur beatae sapiente, distinctio dolore vitae eius dolor incidunt. Alias, dolorem quod repellat voluptatum cupiditate dolorum reiciendis odit voluptatem repudiandae tempore, porro, quidem vitae recusandae commodi molestiae. Earum officia reprehenderit cumque cupiditate, quae placeat expedita a itaque asperiores? Commodi veritatis omnis voluptas alias veniam ab voluptatum quasi labore eveniet tempore sunt dolorum, facere quis cupiditate esse explicabo sapiente in corrupti quisquam amet nisi! Velit ipsum eligendi eos odit aliquam exercitationem corporis iure labore, earum harum tempore deserunt. Et facilis vel possimus corporis voluptatum repudiandae officiis necessitatibus architecto saepe omnis, dicta commodi aspernatur, beatae tempora nostrum quod quaerat similique earum illum. Eum est aliquam commodi debitis quaerat dolorum iste quis soluta perspiciatis, atque sunt expedita doloremque similique provident incidunt autem sint maiores harum dicta in ab at quia. Impedit perspiciatis doloribus possimus eius ipsum, nihil praesentium ratione, mollitia sint neque obcaecati rerum excepturi fugiat officia.</li>
+        <li>
+          idk
+        </li>
       </ul>
-    </nav>
-    <main>
-      <section id="section1">
-        <h2>Placeholder</h2>
-        <p></p>
-      </section>
-      <section id="section2">
-        <h2>Placeholder</h2>
-        <ul>
-          <li>lorem822</li>
-          <li>idk</li>
-        </ul>
-      </section>
-      <section id="section3">
-        <h2>Placeholder</h2>
-        <p></p>
-      </section>
-    </main>
+    </section>
+    <section id="section3">
+      <h2>Placeholder</h2>
+      <p></p>
+    </section>
+    <section id="section4">
+      <h2>Placeholder</h2>
+      <p></p>
+    </section>
+    
+  </main>
 
-    <footer id="footer">
-      <p>Nothing lol</p>
-    </footer>
-  </body>
+  <footer id="footer">
+    <p>Nothing lol</p>
+  </footer>
+
+</body>
+
 </html>
